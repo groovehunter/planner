@@ -1,0 +1,51 @@
+name = Planner
+core = 7.x
+
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = help
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = number
+;dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = toolbar
+
+
+
+; Contrib
+dependencies[] = admin_menu
+dependencies[] = admin_views
+dependencies[] = advanced_help
+dependencies[] = contact
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_tools
+dependencies[] = date_popup
+dependencies[] = devel
+dependencies[] = devel_generate
+dependencies[] = devel_node_access
+dependencies[] = diff
+dependencies[] = dhtml_menu
+dependencies[] = entityreference
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = switch_user
+dependencies[] = taxonomy_manager
+dependencies[] = token
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = views_bulk_operations
+
+; themes
+;dependencies[] = liquid_coolness
+
+
+

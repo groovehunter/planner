@@ -1,4 +1,4 @@
-planner
-=======
+releasemanager
+==============
 
-simple project planner - work in progress
+drupal install profile for release management features
