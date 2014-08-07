@@ -36,6 +36,7 @@ dependencies[] = diff
 dependencies[] = dhtml_menu
 dependencies[] = entityreference
 dependencies[] = features
+dependencies[] = http_proxy
 dependencies[] = strongarm
 dependencies[] = switch_user
 dependencies[] = taxonomy_manager
