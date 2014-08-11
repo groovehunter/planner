@@ -5,8 +5,7 @@
  */
 
 function planner_install() {
-//  theme_enable(array('rubik'));
-//  variable_set('theme_default', 'rubik');
+  variable_set('theme_default', 'liquid_coolness');
 
   // Enable some standard blocks.
   $default_theme = variable_get('theme_default', 'bartik');
@@ -112,5 +111,21 @@ function planner_install() {
   db_insert('users_roles')
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
+
+  variable_set('site_default_country', 'de');
+  variable_set('site_name', "Planner");
+  variable_set('site_frontpage', "calendar");
+  variable_set('proxy_server', "auproxy.syscomp.de");
+  variable_set('proxy_port', "3128");
+  variable_set('configurable_timezones', 0);
+  variable_set('date_default_timezone', "Europe/Berlin");
+  variable_set('user_default_timezone', "0");
+  variable_set('date_first_day', "1");
+
+  variable_set('admin_menu_tweak_modules', "1");
+  variable_set('admin_menu_tweak_permissions', "1");
+
+  variable_set('file_private_path', "sites/default/files/private");
+  variable_set('file_public_path', "sites/default/files");
 
 }
